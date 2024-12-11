@@ -1,0 +1,190 @@
+.marquee-container{
+    width: 100%;
+    box-sizing: border-box;
+    overflow: hidden;
+    /* position: relative; */
+}
+.maquee-1 marquee{
+    width: 100%;
+    padding: 15px 0px 15px 0px;
+     border: 2px solid rgba(255, 255, 255, 0.2);
+    background: rgba(255, 255, 255, 0.05);
+    backdrop-filter: blur(50px); 
+    transform: rotate(1deg);
+    position: absolute;
+    top: 1487px;
+    right: 0; 
+    box-sizing: border-box;
+    overflow: hidden;
+}
+.maquee-1 marquee ul{
+    display: flex;
+    gap: 20px;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+.maquee-1 marquee li{ 
+    list-style: none;
+    font-family: Exo 2;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 36px;
+    text-align: center;
+     text-transform: uppercase;
+    color: rgba(255, 255, 255, 1);
+    margin: 0; 
+    overflow: hidden;   
+}
+
+.maquee-2 marquee{
+    width: 100%;
+    padding: 15px 0px 15px 0px;
+     border: 2px solid rgba(255, 255, 255, 0.2);
+    background: rgba(255, 255, 255, 0.05);
+    backdrop-filter: blur(50px); 
+    box-sizing: border-box;
+    transform:rotate(-1deg);
+    background: rgba(19, 64, 166, 1);
+    position: absolute; 
+    top: 1540px;
+    right: 0;
+}
+.maquee-2 marquee ul{
+    display: flex;
+    gap: 20px;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+.maquee-2 marquee li{ 
+    list-style: none;
+    font-family: Exo 2;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 36px;
+    text-align: center;
+     text-transform: uppercase;
+    color: rgba(255, 255, 255, 1);
+    margin: 0;    
+}
+
+@media screen and (min-width:1070px) and (max-width:1300px) {
+    .maquee-1 marquee{
+        padding: 0;
+        position: absolute; 
+        top: 1487px;
+    }
+    .maquee-2 marquee{
+        padding: 0;
+        position: absolute; 
+        top: 1530px;
+    }
+}
+
+
+@media screen and (min-width:800px) and (max-width:1070px){
+    .maquee-1 marquee{
+        position: absolute; 
+        top: 1430px;
+    }
+    .maquee-2 marquee{
+        position: absolute; 
+        top: 1500px;
+    }
+}
+@media screen and (min-width:600px) and (max-width:800px){
+    .maquee-1 marquee{
+        position: absolute; 
+        top: 1310px;
+    }
+    .maquee-2 marquee{
+        position: absolute; 
+        top: 1380px;
+    }
+}
+@media screen and (min-width:500px) and (max-width:600px) {
+    .maquee-1 marquee{
+        position: absolute; 
+        top: 1210px;
+    }
+    .maquee-2 marquee{
+        position: absolute; 
+        transform: rotate(-1deg);
+        top: 1270px;
+    }
+    .maquee-1 marquee li{ 
+        font-size: 20px;
+        line-height: 30px;   
+    }
+    .maquee-2 marquee li{ 
+        font-size: 20px;
+        line-height: 30px;   
+    }
+}
+
+
+
+@media screen and (min-width:415px) and (max-width:500px) {
+    .maquee-1 marquee{
+        position: absolute; 
+        top: 1220px;
+    }
+    .maquee-2 marquee{
+        position: absolute; 
+        transform: rotate(-1.5deg);
+        top: 1280px;
+    }
+    .maquee-1 marquee li{ 
+        font-size: 20px;
+        line-height: 30px;   
+    }
+    .maquee-2 marquee li{ 
+        font-size: 20px;
+        line-height: 30px;   
+    }
+}
+
+
+@media screen and (min-width:380px) and (max-width:415px) {
+    .maquee-1 marquee{
+        position: absolute; 
+        transform: rotate(1.5deg);
+        top: 1260px;
+    }
+    .maquee-2 marquee{
+        position: absolute; 
+        transform: rotate(-1.5deg);
+        top: 1280px;
+    }
+    .maquee-1 marquee li{ 
+        font-size: 20px;
+        line-height: 30px;   
+    }
+    .maquee-2 marquee li{ 
+        font-size: 20px;
+        line-height: 30px;   
+    }
+}
+
+
+@media screen and (min-width:315px) and (max-width:380px) {
+    .maquee-1 marquee{
+        position: absolute; 
+        transform: rotate(1.5deg);
+        top: 1110px;
+    }
+    .maquee-2 marquee{
+        position: absolute; 
+        transform: rotate(-1.5deg);
+        top: 1170px;
+    }
+    .maquee-1 marquee li{ 
+        font-size: 20px;
+        line-height: 30px;   
+    }
+    .maquee-2 marquee li{ 
+        font-size: 20px;
+        line-height: 30px;   
+    }
+}
