@@ -1,0 +1,276 @@
+.card-payment-container{
+    width: 100%;
+    max-width: 100%;
+    display: flex;
+     justify-content: space-between;
+     align-items: center;
+     gap: 20px;
+     padding: 0px 0px 175px 100px;
+     /* overflow:hidden; */
+     box-sizing: border-box;
+}
+.form-right-part{
+    width: 100%;
+    max-width: 520px;
+    display: flex;
+    flex-direction: column;
+    padding: 80px 50px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 16px;
+    backdrop-filter: blur(150px);
+    box-sizing: border-box;
+}
+.form-part{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.input-form-part{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.input-d-section{
+    width: 100%;
+    height: 82px;
+    display: flex;
+    flex-direction: column;
+}
+.input-d-section label{
+    font-family: Exo 2;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: -0.005em;
+    text-align: left;
+    color: rgba(255, 255, 255, 1) !important;
+    margin: 0;
+    
+}
+.input-d-section input{
+    font-size: 14px;
+    /* width: 100%; */
+    padding: 16px;
+    gap: 10px;
+    border-radius: 16px;
+    border: 1px solid rgba(255, 255, 255, 1);
+    margin: 0;  
+}
+.two-input-d{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+.d-1{
+    width: 100%;
+    max-width: 205px;
+}
+.input-d-section select{
+    font-size: 14px;
+    /* width: 100%; */
+    padding: 16px;
+    gap: 10px;
+    border-radius: 16px;
+    border: 1px solid rgba(255, 255, 255, 1);  
+}
+.form-btn{
+    /* width: 100%;
+    max-width: 420px; */
+    padding: 25px 30px;
+    gap: 10px;
+    border-radius: 16px;
+    background: rgba(15, 111, 255, 1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.form-btn button{
+    outline: none;
+    border: none;
+    background: none;
+    font-family: Exo 2;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    color: rgba(255, 255, 255, 1);
+    margin: 0;
+}
+
+
+@media screen and (min-width:1050px) and (max-width:1300px) {
+    .form-right-part{
+        /* width: 100%; */
+        max-width: 400px;
+        padding: 40px 25px;
+    }  
+    .input-form-part{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    .form-left-d img{
+        /* width: 100%; */
+        max-width: 579px;
+      }
+      .d-1{
+        width: 100%;
+        max-width: 160px;
+    }
+}
+
+
+@media screen and (min-width:900px) and (max-width:1050px) {
+    .card-payment-container{
+         padding: 0px 0px 175px 70px;
+        /* overflow: hidden; */
+    } 
+    .form-right-part{
+        max-width: 400px;
+        padding: 40px 25px;
+    }  
+    .input-form-part{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+    .form-left-d img{
+        width: 100%;
+        max-width: 479px;
+      }
+      .input-d-section input{
+        font-size: 14px;
+        padding: 12px; 
+        border-radius: 12px;
+    }
+      .d-1{
+        width: 100%;
+        max-width: 160px;
+    }
+}
+
+
+@media screen and (min-width:790px) and (max-width:900px) {
+    .card-payment-container{
+         padding: 0px 0px 120px 50px;
+        /* overflow: hidden; */
+    } 
+    .form-right-part{
+        max-width: 350px;
+        padding: 40px 25px;
+    }  
+    .input-form-part{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+    .form-left-d img{
+        width: 100%;
+        max-width: 479px;
+      }
+      .input-d-section input{
+        font-size: 14px;
+        padding: 12px; 
+        border-radius: 12px;
+    }
+      .d-1{
+        width: 100%;
+        max-width: 140px;
+    }
+}
+
+
+@media screen and (min-width:650px) and (max-width:790px) {
+    .card-payment-container{
+         padding: 0px 0px 120px 50px;
+        /* overflow: hidden; */
+    } 
+    .form-right-part{
+        max-width: 300px;
+        padding: 20px 25px;
+        gap: 5px;
+    }  
+    .input-form-part{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+    .form-left-d img{
+        width: 100%;
+        max-width: 400px;
+      }
+      .input-d-section input{
+        font-size: 14px;
+        padding: 10px; 
+        border-radius: 12px;
+    }
+      .d-1{
+        width: 100%;
+        max-width: 120px;
+    }
+    .input-d-section select{
+        font-size: 12px;
+        padding: 12px;
+        border-radius: 12px;
+    }
+    .form-btn{
+        padding: 10px 15px;
+        border-radius: 16px;
+    }
+    .form-btn button{
+        font-size: 20px;
+        line-height: 24px;
+    }
+}
+
+@media screen and (min-width:315px) and (max-width:650px) {
+    .card-payment-container{
+         padding: 0px 0px 60px 20px;
+        /* overflow: hidden; */
+        flex-direction: column;
+    } 
+    .form-right-part{
+        max-width: 300px;
+        padding: 20px 25px;
+        gap: 5px;
+    }  
+    .input-form-part{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+    .form-left-d img{
+        width: 100%;
+        max-width: 400px;
+      }
+      .input-d-section input{
+        font-size: 14px;
+        padding: 10px; 
+        border-radius: 12px;
+    }
+      .d-1{
+        width: 100%;
+        max-width: 120px;
+    }
+    .input-d-section select{
+        font-size: 12px;
+        padding: 12px;
+        border-radius: 12px;
+    }
+    .form-btn{
+        padding: 10px 15px;
+        border-radius: 16px;
+    }
+    .form-btn button{
+        font-size: 20px;
+        line-height: 24px;
+    }
+}

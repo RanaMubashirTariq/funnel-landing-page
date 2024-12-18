@@ -1,0 +1,400 @@
+.expand-card-slider-d{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    padding-top: 61px;
+    color: white;
+    overflow: hidden;
+}
+.img-box{
+    width: 185px;
+    height: 422px;
+    gap: 0px;
+    border-radius: 20px;
+    background: url('/public/Images/pic-1.jpeg');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    transition: width 0.5s;
+}
+.img-box:nth-child(2){
+    background: url(/public/Images/pic-2.png);
+    background-position: center;
+    background-size: cover;
+}
+.img-box:nth-child(3){
+    background: url(/public/Images/pic-3.jpeg);
+    background-position: center;
+    background-size: cover;
+}
+.img-box:nth-child(4){
+    background: url(/public/Images/pic-4.jpeg);
+    background-position: center;
+    background-size: cover;
+}
+.img-box:nth-child(5){
+    background: url(/public/Images/pic-5.jpeg);
+    background-position: center;
+    background-size: cover;
+}
+.inner-content{
+    width: 376px;
+    height: 234px;
+    position: absolute;
+    top: 171px;
+    left: 15px;
+    border-radius: 20px;
+    opacity: 0px;
+    /* background-color: yellow; */
+ }
+ .inner-content:hover{
+    opacity: 1px;
+    background: rgba(15, 111, 255, 1);
+ }
+
+.img-box h2{
+    position: absolute;
+    bottom: 0;
+    left: 40px;
+    opacity: 0;
+    font-family: Exo 2;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 30px;
+    text-align: left;
+    color: rgba(255, 255, 255, 1);
+    margin: 0;    
+}
+.img-box p{
+    width: 328px;
+    position: absolute;
+    bottom: 0;
+    left: 40px;
+    opacity: 0;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    color: rgba(255, 255, 255, 1);
+    margin: 0;  
+}
+.img-box button{
+    background: none;
+    outline: none;
+    border: none;
+    font-family: Exo 2;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    width:153px;
+    padding: 20px 30px;
+    gap: 10px;
+    border-radius: 16px;
+    border: 1px solid rgba(255, 255, 255, 1);
+    opacity: 0px;
+    position: absolute;
+    bottom: 0;
+    left: 40px;
+    opacity: 0;
+}
+.img-box:hover{
+    width: 400px;
+    width: 422px;
+    cursor: pointer;
+}
+.img-box:hover h2{
+    opacity: 1;
+    bottom: 150px;
+    margin: 0;
+}
+.img-box:hover p{
+    bottom: 100px;
+    opacity: 1;
+    margin: 0;
+}
+.img-box:hover button{
+    bottom: 10px;
+    opacity: 1;
+}
+
+@media screen and (min-width:1280px) and (max-width:1400px) {
+    .inner-content{
+        width: 300px;
+        height: 234px;
+        position: absolute;
+        top: 171px;
+        left: 40px;
+    }
+    .img-box:hover{
+        width: 350px;
+        width: 400px;
+        cursor: pointer;
+    }
+    .img-box p{
+        width: 100%;
+        max-width: 250px;
+    }
+    .img-box:hover p{
+        bottom: 70px;
+    }
+    .img-box button{
+        width:123px;
+        padding: 10px 20px;
+        font-size: 16;
+        gap: 10px;
+        border-radius: 10px;
+        border: 1px solid rgba(255, 255, 255, 1);
+        opacity: 0px;
+        position: absolute;
+        bottom: 0;
+        left: 40px;
+        opacity: 0;
+    }
+}
+
+
+
+
+
+@media screen and (min-width:1070px) and (max-width:1280px) {
+    .inner-content{
+        width:  270px;
+        height: 234px;
+        position: absolute;
+        top: 171px;
+        left: 20px;
+    }
+    .img-box:hover{
+        width: 300px;
+        width: 400px;
+        cursor: pointer;
+    }
+    .img-box p{
+        width: 100%;
+        max-width: 220px;
+    }
+    .img-box:hover p{
+        bottom: 70px;
+    }
+    .img-box button{
+        width:143px;
+        padding: 10px 20px;
+        font-size: 16;
+        gap: 10px;
+        border-radius: 10px;
+        border: 1px solid rgba(255, 255, 255, 1);
+        opacity: 0px;
+        position: absolute;
+        bottom: 0;
+        left: 40px;
+        opacity: 0;
+        color: white;
+    }
+}
+
+@media screen and (min-width:1000px) and (max-width:1070px) {
+    .inner-content{
+        width:  240px;
+        height: 234px;
+        position: absolute;
+        top: 171px;
+        left: 20px;
+    }
+    .img-box:hover{
+        width: 280px;
+        width: 400px;
+        cursor: pointer;
+    }
+    .img-box p{
+        width: 100%;
+        max-width: 200px;
+        font-size: 14px;
+    }
+    .img-box:hover p{
+        bottom: 70px;
+    }
+    .img-box button{
+        width:143px;
+        padding: 10px 20px;
+        font-size: 16;
+        gap: 10px;
+        border-radius: 10px;
+        border: 1px solid rgba(255, 255, 255, 1);
+        opacity: 0px;
+        position: absolute;
+        bottom: 0;
+        left: 40px;
+        opacity: 0;
+        color: white;
+    }
+}
+
+@media screen and (min-width:800px) and (max-width:1000px) {
+    .inner-content{
+        width:  200px;
+        height: 234px;
+        position: absolute;
+        top: 171px;
+        left: 10px;
+    }
+    .img-box:hover{
+        width: 280px;
+        width: 400px;
+        cursor: pointer;
+    }
+    .img-box p{
+        width: 100%;
+        max-width: 170px;
+        font-size: 12px;
+    }
+    .img-box:hover p{
+        bottom: 70px;
+        left: 20px;
+    }
+    .img-box button{
+        width:100px;
+        padding: 10px 20px;
+        font-size: 14px;
+        left: 20px;
+        color: white;
+    }
+    .img-box h2{
+        left: 20px;
+        font-size: 22px;
+        line-height: 30px;  
+    }
+}
+
+
+
+
+@media screen and (min-width:700px) and (max-width:800px) {
+    .inner-content{
+        width:  180px;
+        height: 234px;
+        position: absolute;
+        top: 171px;
+        left: 10px;
+    }
+    .img-box:hover{
+        width: 240px;
+        width: 400px;
+        cursor: pointer;
+    }
+    .img-box p{
+        width: 100%;
+        max-width: 150px;
+        font-size: 12px;
+        line-height: 20px;
+    }
+    .img-box:hover p{
+        bottom: 70px;
+        left: 20px;
+    }
+    .img-box button{
+        width:100px;
+        padding: 10px 20px;
+        font-size: 12px;
+        left: 20px;
+        color: white;
+    }
+    .img-box h2{
+        left: 20px;
+        font-size: 20px;
+        line-height: 30px;  
+    }
+}
+
+
+@media screen and (min-width:439px) and (max-width:700px) {
+    .expand-card-slider-d{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        padding-top: 40px;
+    }
+    .img-box{
+        max-width: 400px;
+        height: 422px;
+        cursor: pointer;
+    }.img-box button{
+        font-size: 18px;
+        width:133px;
+        padding: 10px 10px;
+        left: 40px;
+    }
+    .img-box:hover button{
+        bottom: 20px;
+        opacity: 1;
+    }
+    .inner-content{
+        max-width: 376px;
+        height: 234px;
+        position: absolute;
+        top: 171px;
+        left: 15px;
+        border-radius: 20px;
+        opacity: 0px;
+        /* background-color: yellow; */
+     }
+}
+
+
+
+@media screen and (min-width:315px) and (max-width:439px) {
+    .expand-card-slider-d{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+        padding-top: 40px;
+    }
+    .img-box{
+        max-width: 350px;
+        height: 422px;
+        cursor: pointer;
+        border-radius: 20px;
+    }
+    .img-box:hover{
+        max-width: 350px;
+        height: 422px;
+        cursor: pointer;
+        border-radius: 20px;
+    }
+    .img-box button{
+        font-size: 18px;
+        width:133px;
+        padding: 10px 10px;
+        left: 40px;
+    }
+    .img-box:hover button{
+        bottom: 20px;
+        opacity: 1;
+    }
+    .inner-content{
+        max-width: 260px;
+        height: 234px;
+        position: absolute;
+        top: 171px;
+        left: 45px;
+        border-radius: 20px;
+        opacity: 0px;
+        /* background-color: yellow; */
+     }
+     .img-box p{
+        width: 200px;
+        position: absolute;
+        left: 20px;
+        font-size: 12px;
+        line-height: 20px; 
+    }
+    .img-box:hover p{
+        bottom: 80px;
+        opacity: 1;
+        margin: 0;
+    }
+}

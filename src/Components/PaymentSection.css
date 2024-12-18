@@ -1,0 +1,125 @@
+.heading-d{
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;  
+    padding: 161px 301.04px 100px 301px;
+    gap: 20px;
+}
+.heading-d h2{
+    font-family: Exo 2;
+    font-size: 60px;
+    font-weight: 800;
+    line-height: 66px;
+    text-align: center;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 1);
+    margin: 0;
+}
+.heading-d h2 span{
+    color: rgba(15, 111, 255, 1);
+}
+.heading-d p{
+    max-width: 758px;
+    font-family: Montserrat;
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 32px;
+    text-align: center;
+    color: rgba(255, 255, 255, 1);
+    margin: 0; 
+    padding: 0px 39px;
+}
+
+
+@media screen and (min-width:1310px) and (max-width:1507px) {
+    .heading-d{
+        max-width: 100%;
+        display: flex;
+        flex-direction: column;
+        padding: 130px 201.04px 100px 201px;
+        gap: 20px;
+    }
+}
+@media screen and (min-width:1000px) and (max-width:1310px){
+    .heading-d{
+        padding: 130px 141.04px 100px 140px;
+    }
+    .heading-d h2{
+        font-size: 48px;
+        line-height: 50px;
+    }
+    .heading-d p{
+        font-size: 20px;
+        line-height: 32px;
+    }
+}
+
+@media screen and (min-width:650px) and (max-width:1000px){
+    .heading-d{
+        padding: 70px 50.04px 70px 50px;
+    }
+    .heading-d h2{
+        font-size: 36px;
+        line-height: 40px;
+    }
+    .heading-d p{
+        max-width: 500px;
+        font-size: 18px;
+        line-height: 28px;
+    }
+}
+
+
+@media screen and (min-width:465px) and (max-width:650px){
+    .heading-d{
+        padding: 40px 20.04px 40px 20px;
+    }
+    .heading-d h2{
+        font-size: 28px;
+        line-height: 40px;
+    }
+    .heading-d p{
+        max-width: 500px;
+        font-size: 14px;
+        line-height: 28px;
+    }
+}
+
+
+@media screen and (min-width:315px) and (max-width:465px){
+    .heading-d{
+        padding: 40px 20.04px 40px 20px;
+        gap: 10px;
+    }
+    .heading-d h2{
+        font-size: 22px;
+        line-height: 30px;
+    }
+    .heading-d p{
+        max-width: 500px;
+        font-size: 12px;
+        line-height: 20px;
+    }
+}
+
+
+
+
+
+
+@media screen and (max-width:372px){
+    .heading-d{
+        padding: 20px 20.04px 20px 20px;
+        gap: 0px;
+    }
+    .heading-d h2{
+        font-size: 18px;
+        line-height: 30px;
+    }
+    .heading-d p{
+        max-width: 300px;
+        font-size: 12px;
+        line-height: 20px;
+    }
+}
