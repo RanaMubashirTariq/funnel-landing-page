@@ -99,6 +99,9 @@
     color: rgba(255, 255, 255, 1);
     margin: 0;
 }
+.form-btn:hover{
+    background: rgb(35, 74, 132);
+}
 
 
 @media screen and (min-width:1050px) and (max-width:1300px) {

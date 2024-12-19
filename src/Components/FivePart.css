@@ -1,0 +1,389 @@
+.five-part-container{
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 170px 100px 175px 100px;
+}
+.five-part-top-heading{
+    width: 100%;
+}
+.five-part-top-heading h2{
+    font-family: Exo 2;
+    font-size: 60px;
+    font-weight: 800;
+    line-height: 66px;
+    text-align: center;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 1);
+    margin: 0;
+}
+.five-part-top-heading h2 span{
+    color: rgba(15, 111, 255, 1);
+}
+.five-part-bottom-part{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    padding-top: 60px;
+}
+.five-part-bottom-left-d{
+    width: 100%;
+    max-width: 580px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.pic-1-five-part-right img{
+    width: 100%;
+    max-width: 267px;
+    height: 357px;
+    border-radius: 16px;  
+}
+.five-part-bottom-left-btn{
+    width: 248px;
+    height: 127px;
+    padding: 0px 19px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    border-radius: 16px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(150px);
+}
+.five-part-bottom-left-btn h3{
+    font-family: Exo 2;
+    font-size: 54px;
+    font-weight: 700;
+    line-height: 30px;
+    text-align: left;
+    color: rgba(255, 255, 255, 1);
+    margin: 0;
+}
+.five-part-bottom-left-btn p{
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 28px;
+    text-align: left;
+    color: rgba(255, 255, 255, 1);
+    margin: 0;
+    padding-top: 25px;
+}
+.pic-2-five-part img{
+    width: 100%;
+    max-width: 282px;
+    height: 464px;
+    border-radius: 16px;
+}
+.left-side-part{
+     width: 100%;
+     max-width: 282px;
+     display: flex;
+     flex-direction: column;
+     gap: 20px;
+}
+
+
+@media screen and (min-width:1130px) and (max-width:1360px) {
+    .five-part-bottom-left-d{
+        width: 100%;
+        max-width: 500px;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+    .pic-2-five-part img{
+        width: 100%;
+        max-width: 240px;
+        height: 464px;
+        border-radius: 16px;
+    }
+    .left-side-part{
+        width: 100%;
+        max-width: 240px;
+   } 
+    .pic-1-five-part-right img{
+        width: 100%;
+        max-width: 220px;
+        height: 357px;
+        border-radius: 16px;  
+    }
+    .five-part-bottom-left-btn{
+        width: 200px;
+        height: 127px;
+        padding: 0px 19px;
+        border-radius: 16px;
+    }
+    .five-part-bottom-left-btn h3{
+        font-size: 44px;
+        line-height: 30px;
+    }
+    .five-part-bottom-left-btn p{
+        font-size: 14px;
+        line-height: 28px;
+    }
+}
+
+
+
+@media screen and (min-width:966px) and (max-width:1130px) {
+    .five-part-container{
+        padding: 120px 70px 125px 70px;
+    }
+    .five-part-top-heading h2{
+        font-size: 48px;
+        line-height: 60px;
+    }
+    .five-part-bottom-left-d{
+        width: 100%;
+        max-width: 450px;
+    }
+    .pic-2-five-part img{
+        width: 100%;
+        max-width: 200px;
+        height: 400px;
+        border-radius: 12px;
+    }
+    .left-side-part{
+        width: 100%;
+        max-width: 200px;
+   } 
+    .pic-1-five-part-right img{
+        width: 100%;
+        max-width: 200px;
+        height: 357px;
+        border-radius: 16px;  
+    }
+    .five-part-bottom-left-btn{
+        width: 160px;
+        height: 100px;
+        padding: 0px 19px;
+        border-radius: 16px;
+        gap: 0px;
+    }
+    .five-part-bottom-left-btn h3{
+        font-size: 38px;
+        line-height: 30px;
+    }
+    .five-part-bottom-left-btn p{
+        font-size: 12px;
+        line-height: 28px;
+    }
+}
+
+
+
+
+
+
+
+@media screen and (min-width:760px) and (max-width:966px) {
+    .five-part-container{
+        padding: 80px 50px 85px 50px;
+    }
+    .five-part-top-heading h2{
+        font-size: 36px;
+        line-height: 50px;
+    }
+    .five-part-bottom-left-d{
+        width: 100%;
+        max-width: 350px;
+    }
+    .pic-2-five-part img{
+        width: 100%;
+        max-width: 170px;
+        height: 370px;
+        border-radius: 12px;
+    }
+    .left-side-part{
+        width: 100%;
+        max-width: 160px;
+   } 
+    .pic-1-five-part-right img{
+        width: 100%;
+        max-width: 160px;
+        height: 320px;
+        border-radius: 16px;  
+    }
+    .five-part-bottom-left-btn{
+        width: 130px;
+        height: 100px;
+        padding: 0px 19px;
+        border-radius: 16px;
+        gap: 0px;
+    }
+    .five-part-bottom-left-btn h3{
+        font-size: 28px;
+        line-height: 30px;
+    }
+    .five-part-bottom-left-btn p{
+        font-size: 10px;
+        line-height: 20px;
+    }
+}
+
+
+
+@media screen and (min-width:460px) and (max-width:760px) {
+    .five-part-container{
+        padding: 40px 20px 45px 20px;
+    }
+    .five-part-bottom-part{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        padding-top: 30px;
+        align-items: center;
+    }
+    .five-part-top-heading h2{
+        font-size: 36px;
+        line-height: 50px;
+    }
+    .five-part-bottom-left-d{
+        max-width: 500px;
+    }
+    .pic-2-five-part img{
+        width: 100%;
+        max-width: 250px;
+        height: 400px;
+        border-radius: 12px;
+    }
+    .left-side-part{
+        width: 100%;
+        max-width: 200px;
+   } 
+    .pic-1-five-part-right img{
+        width: 100%;
+        max-width: 200px;
+        height: 367px;
+        border-radius: 16px;  
+    }
+    .five-part-bottom-left-btn{
+        width: 160px;
+        height: 100px;
+        padding: 0px 19px;
+        border-radius: 16px;
+        gap: 0px;
+    }
+    .five-part-bottom-left-btn h3{
+        font-size: 28px;
+        line-height: 30px;
+    }
+    .five-part-bottom-left-btn p{
+        font-size: 10px;
+        line-height: 20px;
+    }
+}
+
+
+@media screen and (min-width:380px) and (max-width:460px) {
+    .five-part-container{
+        padding: 40px 20px 45px 20px;
+    }
+    .five-part-bottom-part{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        padding-top: 30px;
+        align-items: center;
+    }
+    .five-part-top-heading h2{
+        font-size: 28px;
+        line-height: 40px;
+    }
+    .five-part-bottom-left-d{
+        width: 100%;
+        max-width: 350px;
+    }
+    .pic-2-five-part img{
+        width: 100%;
+        max-width: 170px;
+        height: 370px;
+        border-radius: 12px;
+    }
+    .left-side-part{
+        width: 100%;
+        max-width: 160px;
+   } 
+    .pic-1-five-part-right img{
+        width: 100%;
+        max-width: 160px;
+        height: 320px;
+        border-radius: 16px;  
+    }
+    .five-part-bottom-left-btn{
+        width: 130px;
+        height: 100px;
+        padding: 0px 19px;
+        border-radius: 16px;
+        gap: 0px;
+    }
+    .five-part-bottom-left-btn h3{
+        font-size: 28px;
+        line-height: 30px;
+    }
+    .five-part-bottom-left-btn p{
+        font-size: 10px;
+        line-height: 20px;
+    }
+}
+
+@media screen and (min-width:315px) and (max-width:380px) {
+    .five-part-container{
+        padding: 40px 20px 45px 20px;
+    }
+    .five-part-bottom-part{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        padding-top: 30px;
+        align-items: center;
+    }
+    .five-part-top-heading h2{
+        font-size: 28px;
+        line-height: 40px;
+    }
+    .five-part-bottom-left-d{
+        width: 100%;
+        max-width: 290px;
+    }
+    .pic-2-five-part img{
+        width: 100%;
+        max-width: 140px;
+        height: 320px;
+        border-radius: 12px;
+    }
+    .left-side-part{
+        width: 100%;
+        max-width: 140px;
+   } 
+    .pic-1-five-part-right img{
+        width: 100%;
+        max-width: 130px;
+        height: 280px;
+        border-radius: 12px;  
+    }
+    .five-part-bottom-left-btn{
+        width: 100px;
+        height: 70px;
+        padding: 0px 19px;
+        border-radius: 16px;
+        gap: 0px;
+    }
+    .five-part-bottom-left-btn h3{
+        font-size: 20px;
+        line-height: 20px;
+    }
+    .five-part-bottom-left-btn p{
+        font-size: 8px;
+        line-height: 15px;
+        padding-top: 10px;
+    }
+    .five-part-bottom-left-d{
+        gap: 10px;
+    }
+}
